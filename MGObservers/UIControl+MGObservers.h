@@ -2,8 +2,7 @@
 //  Created by matt on 19/10/12.
 //
 
-#if !TARGET_OS_WATCH
-
+#import <UIKit/UIKit.h>
 #import "MGBlockWrapper.h"
 
 /**
@@ -29,5 +28,3 @@ When a control event is triggered of the given kind, perform the given block.
 - (void)removeHandlersForControlEvent:(UIControlEvents)controlEvent;
 
 @end
-
-#endif

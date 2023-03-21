@@ -2,6 +2,8 @@
 //  Created by matt on 24/08/12.
 //
 
+#import <Foundation/Foundation.h>
+
 typedef void(^MGBlock)(void);
 typedef void(^MGBlockWithContext)(id context);
 
